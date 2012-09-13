@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OpenEarsExt"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Extension of OpenEars to support spoken language assessment."
   s.homepage     = "http://EXAMPLE/OpenEarsExt"
   s.license      = {
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author       = { "Hui Lin" => "" }
-  s.source       = { :git => "https://github.com/morphyi/engzo-scoring.git", :tag => 'v0.0.3'}
+  s.source       = { :git => "https://github.com/morphyi/engzo-scoring.git", :tag => '0.0.3'}
   s.platform     = :ios
   s.source_files = 'OpenEars/Classes', 'OpenEars/Classes/**/*.*', 'OpenEars/Dependencies/*/include/**/*.h', 'OpenEars/Dependencies/*/src/**/*.{h,c}'
    s.frameworks = 'Foundation', 'AudioToolbox'
